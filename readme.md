@@ -42,7 +42,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 
 <h4>2.1.2 Show contents and labels</h4>
 <p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers</p>
-<p>The results are as follows.</p>
+<h5>The results are as follows.</h5>
  
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
 
