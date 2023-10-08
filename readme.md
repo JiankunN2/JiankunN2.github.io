@@ -55,6 +55,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p>In the training process, the pictures in the training set are first revised into MNIST single color format and then imported into the model. The model will decide which style it belongs to and then compare the results with the answers provided in the training set. The model will improve itself again and again through the training process and the trained model will be saved.<p> 
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/testing%20drawio.png)
+
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/training%20drawio.png)
 
 <p>For testing, the revised picture will be imported and the model will compare it with other pictures whoes styles are know. After comparing, the model will give a series of numbers presenting the possibility of the cloth in the picture belonging to different styles. The style with highest possibility will be the prediction result.
@@ -90,6 +91,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p>The building fo the hardware of many parts, the most important part is the virtual assistant. The virtual assistant is responsible for the interaction from acquiring specific information to the end of the whole process of recommending. There are also other parts including the microphone to analyse speaking and the computer used to collect data, ect. For the closet part, I plan to install servos in them. The users don't have to look for the clothes themselves, instead, the closet will take them out automatically. Modeling using 123Design, I created the model of the closet adn the servos. After a command is given by user, Raspberry Pi will activate the servos through Arduino to take out or take back specific clothes.<p>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/servo.png)
+
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/IMG_20230416_092528.jpg)
 
 
