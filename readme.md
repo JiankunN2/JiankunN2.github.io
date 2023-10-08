@@ -41,7 +41,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers<p>
 <p>The reaults are as follows.<p>
  
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/raw/main/open%20picture.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/raw/main/programming%20drawio.png)
 
 <h3>2.2 AI training</h3>
