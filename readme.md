@@ -46,6 +46,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
  
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
 <p> aaa </p>
+
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/programming%20drawio.png)
 
 <h3>2.2 AI training</h3>
