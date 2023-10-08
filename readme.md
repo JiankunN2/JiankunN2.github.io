@@ -40,8 +40,8 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 9: Ankle boot.<p>
 
 <h4>2.1.2 Show contents and labels</h4>
-<p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers<p>
-<p>The reaults are as follows.<p>
+<p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers</p>
+<p>The reaults are as follows.</p>
  
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
 
@@ -53,21 +53,21 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <h4>2.2.2 CNN network</h4>
 <p>After everythings id done preprocessing, the CNN network model can be built. It is programmed that it will call the structure of its parent class and inherit the parent class's properties. The network model will calculate the probability of cloth belonging to every sort and the label with highest probability will be the out put. The optimizer is defined so that the AI engine can evolve to a higher accuracy after every training.
 <h4>2.2.3 Testing and Training</h4>
-<p>In the training process, the pictures in the training set are first revised into MNIST single color format and then imported into the model. The model will decide which style it belongs to and then compare the results with the answers provided in the training set. The model will improve itself again and again through the training process and the trained model will be saved.<p> 
+<p>In the training process, the pictures in the training set are first revised into MNIST single color format and then imported into the model. The model will decide which style it belongs to and then compare the results with the answers provided in the training set. The model will improve itself again and again through the training process and the trained model will be saved.</p> 
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/testing%20drawio.png)
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/training%20drawio.png)
 
 <p>For testing, the revised picture will be imported and the model will compare it with other pictures whoes styles are know. After comparing, the model will give a series of numbers presenting the possibility of the cloth in the picture belonging to different styles. The style with highest possibility will be the prediction result.
-<p>predict outputs and show pictures<p>
+<p>predict outputs and show pictures</p>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/methodology.png)
 
 <h3>2.3 Recommendation engine</h3>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/cvimgshow.png)
-<p> When the user needs to provide necessary info about the clothes before a new piece of clothes can be put into the closet. After the user has decide wher the cloth should be put, the system will decide if the position is available. If it is available, then the information about the clothes will be saved in a csv file and the cloth will be stored. If the location is unavailable or doesn't exist, the program will return an error. The information about the clothes and their pictures will be shown in the user interface later. this is a rendering for the UI.<p>
+<p> When the user needs to provide necessary info about the clothes before a new piece of clothes can be put into the closet. After the user has decide wher the cloth should be put, the system will decide if the position is available. If it is available, then the information about the clothes will be saved in a csv file and the cloth will be stored. If the location is unavailable or doesn't exist, the program will return an error. The information about the clothes and their pictures will be shown in the user interface later. this is a rendering for the UI.</p>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/example.png)
 
@@ -76,20 +76,20 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <h4>2.4.1 UI</h4>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/UI.png)
-<p> the user interface allows users to store in their new clothes after purchasing. First, the photos of the clothes are taken. Then the AI willlcompare it with pictures of clothes online to determine what clothes they are and automatically fill in their information. If their is an error with the AI, the users can allso choose to enter the info themselves. Then they will decide where to put these clothes. After the storage space is confirmed, the process is done and information will be saved.
+<p> the user interface allows users to store in their new clothes after purchasing. First, the photos of the clothes are taken. Then the AI willlcompare it with pictures of clothes online to determine what clothes they are and automatically fill in their information. If their is an error with the AI, the users can allso choose to enter the info themselves. Then they will decide where to put these clothes. After the storage space is confirmed, the process is done and information will be saved.</p>
 
 <h4>2.4.2 Cloth database</h4>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/cloth%20database.png)
-<p>In the programs, several batabases are used for information saving. For now, the collected information about the clothes are stored in cvs files. The first two columns are the location where a piece of cloth is stored, the third colummn is style, fourth is suitable weather and column five is its corresponding mood.
+<p>In the programs, several batabases are used for information saving. For now, the collected information about the clothes are stored in cvs files. The first two columns are the location where a piece of cloth is stored, the third colummn is style, fourth is suitable weather and column five is its corresponding mood.</p>
   
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/database2.png)
-<p>This csv file is a database also for stored clothes but without locations. When their IDs are typed into the program, their style, temp, mood ect will be returned.
+<p>This csv file is a database also for stored clothes but without locations. When their IDs are typed into the program, their style, temp, mood ect will be returned.</p>
 
 <h3>2.5 hardware</h3>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/block%20diagram%201.png)
-<p>The building fo the hardware of many parts, the most important part is the virtual assistant. The virtual assistant is responsible for the interaction from acquiring specific information to the end of the whole process of recommending. There are also other parts including the microphone to analyse speaking and the computer used to collect data, ect. For the closet part, I plan to install servos in them. The users don't have to look for the clothes themselves, instead, the closet will take them out automatically. Modeling using 123Design, I created the model of the closet adn the servos. After a command is given by user, Raspberry Pi will activate the servos through Arduino to take out or take back specific clothes.<p>
+<p>The building fo the hardware of many parts, the most important part is the virtual assistant. The virtual assistant is responsible for the interaction from acquiring specific information to the end of the whole process of recommending. There are also other parts including the microphone to analyse speaking and the computer used to collect data, ect. For the closet part, I plan to install servos in them. The users don't have to look for the clothes themselves, instead, the closet will take them out automatically. Modeling using 123Design, I created the model of the closet adn the servos. After a command is given by user, Raspberry Pi will activate the servos through Arduino to take out or take back specific clothes.</p>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/servo.png)
 
@@ -101,4 +101,4 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 
 The overall structure of the hardware is designed by 3D modeling. Then the parts are either laser cut or 3D printed according to their shape and size. The built model of the smart closet had plenty of space for different parts including servos and hangers to be installed. The hardware parts were also tested. Connected to Arduino, the specific servos can successfully react to the commands from the user accordingly.
 
-Though the project had already achieved my purpose successfully, I believe that there are much more improvements to be made. First, the training dataset and my web crawler can be connected so the AI has access to the newest fashion over the world, re-examining its accuracy. Also, there must be better ways, say MySQL database, to store information about clothing pictures except csv files that I can utilize.
+Though the project had already achieved my purpose successfully, I believe that there are much more improvements to be made. First, the training dataset and my web crawler can be connected so the AI has access to the newest fashion over the world, re-examining its accuracy. Also, there must be better ways, say MySQL database, to store information about clothing pictures except csv files that I can utilize.</p>
