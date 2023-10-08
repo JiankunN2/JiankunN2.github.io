@@ -1,6 +1,7 @@
 <h1>Big Data Based Virtual Assistent For Cloth Recommendation</h1>
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/1st%20picture.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/methodology.png)
 <h2>1. Introduction</h2>
 <h3>1.1 background</h3>
 <p>Nowadays, as internet became widespread among people, fashion is changing almost every second. 
@@ -44,7 +45,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
  
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
 
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/raw/main/programming%20drawio.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/programming%20drawio.png)
 
 <h3>2.2 AI training</h3>
 <h4>2.2.1 Preprocessing</h4>
@@ -56,7 +57,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/testing%20drawio.png)
 
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/training%20drawio.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/training%20drawio.png)
 
 <p>For testing, the revised picture will be imported and the model will compare it with other pictures whoes styles are know. After comparing, the model will give a series of numbers presenting the possibility of the cloth in the picture belonging to different styles. The style with highest possibility will be the prediction result.
 <p>predict outputs and show pictures<p>
