@@ -27,18 +27,18 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p>Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255. The training and test data sets have 785 columns. The first column consists of the class labels (see above), and represents the article of clothing. The rest of the columns contain the pixel-values of the associated image. The pictures provided in the datasets are in "ubyte" format, so it requires a program to interpret them and turn them into visually pictures of clothes which can be distinguished and compared by the AI.</p>
 <h5>labels</h5>
 <p>The labels of different clothes are also included in the dataset, these labels are written in codes, so it requires a program to "translate" them into everyday language that we speak.<p>
-<p>Each training and test example is assigned to one of the following labels:
+<p>Each training and test example is assigned to one of the following labels:</p>
 
-0: T-shirt/top,
-1: Trouser,
-2: Pullover,
-3: Dress,
-4: Coat,
-5: Sandal,
-6: Shirt,
-7: Sneaker,
-8: Bag,
-9: Ankle boot.</p>
+<p>0: T-shirt/top,</p>
+<p>1: Trouser,</p>
+<p>2: Pullover,</p>
+<p>3: Dress,</p>
+<p>4: Coat,</p>
+<p>5: Sandal,</p>
+<p>6: Shirt,</p>
+<p>7: Sneaker,</p>
+<p>8: Bag,</p>
+<p>9: Ankle boot.</p>
 
 <h4>2.1.2 Show contents and labels</h4>
 <p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers.</p>
