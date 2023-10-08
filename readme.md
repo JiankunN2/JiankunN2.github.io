@@ -21,7 +21,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <h3>2.1 fashion MNIST</h3>
 <h4>2.1.1 data</h4>
 
-<p>Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.<p>
+<p>Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.</p>
 <h5>format</h5>
 <p>Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255. The training and test data sets have 785 columns. The first column consists of the class labels (see above), and represents the article of clothing. The rest of the columns contain the pixel-values of the associated image. The pictures provided in the datasets are in "ubyte" format, so it requires a program to interpret them and turn them into visually pictures of clothes which can be distinguished and compared by the AI.</p>
 <h5>labels</h5>
@@ -37,7 +37,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 6: Shirt,
 7: Sneaker,
 8: Bag,
-9: Ankle boot.<p>
+9: Ankle boot.</p>
 
 <h4>2.1.2 Show contents and labels</h4>
 <p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers</p>
@@ -49,9 +49,9 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 
 <h3>2.2 AI training</h3>
 <h4>2.2.1 Preprocessing</h4>
-<p>First, all necessary libraries(mainly torch) are loaded. The hyperparameters are defined to regulate the amount of info being processed every batch and the number of rounds of the training data. Next, the pipeline for image processing is built and the data downloaded is processed. After loading both data sets, the pictures in them are displayed and saved.
+<p>First, all necessary libraries(mainly torch) are loaded. The hyperparameters are defined to regulate the amount of info being processed every batch and the number of rounds of the training data. Next, the pipeline for image processing is built and the data downloaded is processed. After loading both data sets, the pictures in them are displayed and saved.</p>
 <h4>2.2.2 CNN network</h4>
-<p>After everythings id done preprocessing, the CNN network model can be built. It is programmed that it will call the structure of its parent class and inherit the parent class's properties. The network model will calculate the probability of cloth belonging to every sort and the label with highest probability will be the out put. The optimizer is defined so that the AI engine can evolve to a higher accuracy after every training.
+<p>After everythings id done preprocessing, the CNN network model can be built. It is programmed that it will call the structure of its parent class and inherit the parent class's properties. The network model will calculate the probability of cloth belonging to every sort and the label with highest probability will be the out put. The optimizer is defined so that the AI engine can evolve to a higher accuracy after every training.</p>
 <h4>2.2.3 Testing and Training</h4>
 <p>In the training process, the pictures in the training set are first revised into MNIST single color format and then imported into the model. The model will decide which style it belongs to and then compare the results with the answers provided in the training set. The model will improve itself again and again through the training process and the trained model will be saved.</p> 
 
@@ -59,7 +59,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/training%20drawio.png)
 
-<p>For testing, the revised picture will be imported and the model will compare it with other pictures whoes styles are know. After comparing, the model will give a series of numbers presenting the possibility of the cloth in the picture belonging to different styles. The style with highest possibility will be the prediction result.
+<p>For testing, the revised picture will be imported and the model will compare it with other pictures whoes styles are know. After comparing, the model will give a series of numbers presenting the possibility of the cloth in the picture belonging to different styles. The style with highest possibility will be the prediction result.</p>
 <p>predict outputs and show pictures</p>
 
 ![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/methodology.png)
