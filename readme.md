@@ -1,7 +1,7 @@
 <h1>Big Data Based Virtual Assistent For Cloth Recommendation</h1>
 
 ![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/1st%20picture.png)
-![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/methodology.png)
+
 <h2>1. Introduction</h2>
 <h3>1.1 background</h3>
 <p>Nowadays, as internet became widespread among people, fashion is changing almost every second. 
