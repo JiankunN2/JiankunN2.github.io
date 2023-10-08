@@ -11,7 +11,7 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p> Ideally, BDBVACR will be composed of both hardweare and softwear. The hardware will be connected to personal computers and able to interact with intelligent houseware. The purpose of this product is to recommend clothing options to user via virtual assistant. By comparing with big data, it will be able to identify different styles of clothing from social media, and provide valuable suggestions according to local weather, users' mood, and their plans for the day. Also, it will be able to track the user's social media viewing history, following the clothing trend of stars and internet celebrities that the user subscribes.It is expected that it can interact with other intelligent furnitures such as closets to provide information about where to find the recommended clothes. 
 <h2>2. methodology</h2>
 
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/methodology.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/methodology.png)
 <p>The program starts by inquiring the user about what style of clothes through python input function. The answer to these questions are typed in by the user and it will be recorded. Then the program recommend clothes that corresponds to the tags given by the user. The program will also record what clothes are already owned by the user thorugh python lists function and later transfer them into csv files. The clothes recorded will be more favored in the process of recommendation. With respect to the expected weather and popular trend, recommendation will be made. If the user gives a negative feedback, then the product will re-recommend by asking the user more details about the clothing wanted. The tags marked as “dislike” will be avoided in similar situations in the future.<p>
   
 <p>First, the program imports the csv file used to store information about clothes and the 10 clothes pictures being tested. Then the pictures of the clothes are read and resized into a 800*800 pixel square to later fit the recommendation page. Using 'input' function, we acquire necessary information including the style of the cloth and where it will be put from the user. The program will atomatically check if the storgae space is available for the cloth, if yes, an overview of the closets will be showed in the recommendation page and where the cloth is stored will be highlighted. Later, if the user acquires a piece of clothes, then the style and mood of it will be typed in via the input function. If it corresponds to one or maybe several pieces of clothes, the name and location of the clothes will be printed out and their pictures will be shown in the recommendation page.
@@ -41,8 +41,8 @@ Many teenagers, especially girls, have many pieces of clothes, each with their o
 <p>The 4th to 7th byte of the training dataset is the number of labels. Every byte after that is a label ranging from 1 to 9. After reading the contents of the dataset, all the pictures of the clothes in the dataset can be shown using function openCV. The pictures are displayed along with the translated labels and the serial numbers<p>
 <p>The reaults are as follows.<p>
  
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/open%20picture.png)
-![](https://github.com/Justin-ljk/Justin-ljk.github.io/blob/main/programming%20drawio.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/open%20picture.png)
+![](https://raw.githubusercontent.com/Justin-ljk/Justin-ljk.github.io/main/programming%20drawio.png)
 
 <h3>2.2 AI training</h3>
 <h4>2.2.1 Preprocessing</h4>
